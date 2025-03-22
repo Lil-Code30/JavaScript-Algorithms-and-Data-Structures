@@ -45,7 +45,7 @@ function getRandomComputerResult() {
       winnerMsgElement.innerText = `${
         playerScore === 3 ? "Player" : "Computer"
       } has won the game!`;
-  
+      
       resetGameBtn.style.display = "block";
       optionsContainer.style.display = "none";
     }
